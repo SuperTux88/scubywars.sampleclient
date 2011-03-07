@@ -5,9 +5,9 @@ import actors.Actor
 import de.tdng2011.game.library.connection.{RelationTypes, AbstractClient}
 import de.tdng2011.game.library.{ScoreBoard, World, EntityTypes}
 
-class Client(hostname : String) extends AbstractClient(hostname, RelationTypes.Player) with Actor {
+class Client(hostname : String, playerName : String) extends AbstractClient(hostname, RelationTypes.Player) with Actor {
 
-  override def name = "SampleClient"
+  override def name = playerName
 
   start
 
