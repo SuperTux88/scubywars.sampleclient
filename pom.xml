@@ -7,7 +7,6 @@
 		<version>1.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>de.tdng2010.game</groupId>
 	<artifactId>scubywars.sampleclient</artifactId>
 	<version>1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -65,8 +64,8 @@
 	</build>
 
 	<scm>
-		<connection>scm:git:git://github.com/fbe/Scubywars-sample-client.git</connection>
-		<developerConnection>scm:git:git@github.com:fbe/Scubywars-sample-client.git</developerConnection>
-		<url>https://github.com/fbe/Scubywars-sample-client</url>
+		<connection>scm:git:git://github.com/SuperTux88/scubywars.sampleclient.git</connection>
+		<developerConnection>scm:git:git@github.com:SuperTux88/scubywars.sampleclient.git</developerConnection>
+		<url>https://github.com/SuperTux88/scubywars.sampleclient</url>
 	</scm>
 </project>
